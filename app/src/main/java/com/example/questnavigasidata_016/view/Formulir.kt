@@ -99,18 +99,20 @@ fun FormIsian(
                 color = Color.Red
             )
             OutlinedTextField(
-                value = "",
+                value = txtAlamat,
                 singleLine = true,
                 modifier = Modifier
                     .width(250.dp),
                 label = {Text(text = "Alamat")},
-                onValueChange = { },
+                onValueChange = {
+                    txtAlamat = it
+                },
             )
             Spacer(modifier = Modifier.height(30.dp))
             Button(
                 modifier = Modifier.fillMaxWidth(1f)
                     .padding(all = 20.dp),
-                onClick = OnSubmitButtonClicked
+                onClick = onSubmitButtonClicked
             ){
                 Text(stringResource(id = R.string.submit))
             }
