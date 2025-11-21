@@ -1,4 +1,4 @@
-package com.example.questnavigasiui_016.view
+package com.example.questnavigasidata_016
 
 
 import androidx.compose.foundation.layout.Arrangement
@@ -26,7 +26,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.example.questnavigasiui_016.R
+import com.example.questnavigasidata_016.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
