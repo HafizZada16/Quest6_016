@@ -7,4 +7,9 @@
     <string name="alamat">ALAMAT</string>
     <string name="Tampil">Tampilan Data</string>
     <string name="home">Form Isian</string>
+
+    <string name="laki">Laki-laki</string>
+    <string name="wanita">Wanita</string>
+
+
 </resources>
