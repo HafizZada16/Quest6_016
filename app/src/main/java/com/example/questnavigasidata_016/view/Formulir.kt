@@ -1,4 +1,4 @@
-package com.example.questnavigasidata_016
+package com.example.questnavigasidata_016.view
 
 
 import androidx.compose.foundation.layout.Arrangement
